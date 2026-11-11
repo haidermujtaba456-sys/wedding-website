@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RSVP — Hassan Mehdi &amp; The Bride Wedding | 19 December 2026</title>
+<meta name="description" content="RSVP for the wedding of Hassan Mehdi & The Bride, 15-20 December 2026 in Lahore. Confirm your attendance, choose your events, guests and meal preference.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header"><div class="nav-wrap">
+<a class="logo" href="index.html">H <span>&amp;</span> B<small>Hassan Mehdi &amp; The Bride</small></a>
+<button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">☰</button>
+<nav class="main-nav" id="mainNav" aria-label="Main navigation"><a href="index.html">Home</a><a href="story.html">Our Story</a><a href="events.html">Events</a><a href="gallery.html">Gallery</a><a href="invitation.html">Invitation</a><a href="rsvp.html">RSVP</a><a href="contact.html">Contact</a><a class="btn small nav-cta" href="rsvp.html">RSVP Now</a></nav>
+</div></header>
+<main>
+<section class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1600&auto=format&fit=crop')"><div class="hero-inner"><p class="eyebrow">We Cannot Wait to See You</p><h1>RSVP</h1><p>Please reply by 5 December 2026. It takes less than a minute.</p></div></section>
+
+<section class="section"><div class="container">
+<p class="eyebrow reveal">Your Invitation</p><h2 class="reveal">Will You Join Us in Lahore?</h2><div class="divider">❀</div>
+<p class="lead reveal">Hassan Mehdi &amp; The Bride warmly invite you to their wedding week, 15–20 December 2026. Please tell us if you can come, how many of you there will be, and which events you will join — it helps us plan seating, food and transport for everyone.</p>
+<div class="note mt reveal" id="savedRsvp" style="display:none;max-width:760px;margin-left:auto;margin-right:auto"></div>
+
+<form class="form-card mt reveal" id="rsvpForm" novalidate>
+<div class="form-row">
+<div class="field"><label for="rsvpName">Full Name *</label><input id="rsvpName" name="name" type="text" placeholder="Your full name" autocomplete="name" required><p class="error">Please enter your full name.</p></div>
+<div class="field"><label for="rsvpEmail">Email Address *</label><input id="rsvpEmail" name="email" type="email" placeholder="you@example.com" autocomplete="email" required><p class="error">Please enter a valid email address.</p></div>
+</div>
+<div class="form-row">
+<div class="field"><label for="rsvpPhone">Phone Number *</label><input id="rsvpPhone" name="phone" type="tel" placeholder="+92 300 1234567" autocomplete="tel" required><p class="error">Please enter a phone number with at least 10 digits.</p></div>
+<div class="field"><label for="rsvpGuests">Number of Attendees *</label><select id="rsvpGuests" name="guests"><option value="1">1 guest</option><option value="2" selected>2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option><option value="5">5 guests</option><option value="6">6 guests</option></select></div>
+</div>
+<div class="field"><label>Which events will you attend? (choose all that apply)</label><div class="checks">
+<label><input type="checkbox" name="rsvpEvents" value="Mayun — Tue 15 Dec"> Mayun — Tue 15 Dec</label>
+<label><input type="checkbox" name="rsvpEvents" value="Mehndi — Wed 16 Dec"> Mehndi — Wed 16 Dec</label>
+<label><input type="checkbox" name="rsvpEvents" value="Dholki — Thu 17 Dec"> Dholki — Thu 17 Dec</label>
+<label><input type="checkbox" name="rsvpEvents" value="Nikah — Fri 18 Dec"> Nikah — Fri 18 Dec</label>
+<label><input type="checkbox" name="rsvpEvents" value="Baraat — Sat 19 Dec" checked> Baraat — Sat 19 Dec</label>
+<label><input type="checkbox" name="rsvpEvents" value="Walima — Sun 20 Dec"> Walima — Sun 20 Dec</label>
+</div></div>
+<div class="field" id="attendingField"><label>Will you be attending? *</label><div class="checks">
+<label><input type="radio" name="attending" value="yes"> Yes, joyfully accepting</label>
+<label><input type="radio" name="attending" value="no"> Regretfully declining</label>
+</div><p class="error">Please choose Yes or No.</p></div>
+<div class="form-row">
+<div class="field"><label for="rsvpMeal">Meal Preference</label><select id="rsvpMeal" name="meal"><option value="">No preference</option><option>Vegetarian</option><option>Non-vegetarian</option><option>Vegan</option><option>Halal — no preference</option></select></div>
+<div class="field"><label for="rsvpRequests">Special Requests</label><input id="rsvpRequests" name="requests" type="text" placeholder="Dietary needs, accessibility, children…"></div>
+</div>
+<button class="btn" type="submit" style="width:100%">Submit RSVP</button>
+<div class="success" id="rsvpSuccess" role="status"><strong>Thank you — your RSVP has been received!</strong><p id="rsvpSummary" style="margin-top:8px"></p><p style="margin-top:8px;color:var(--ink-soft)">Your reply is saved on this device. If you need to change it, just submit the form again or email hello@hassanmehdiwedding.com.</p></div>
+</form>
+</div></section>
+
+<section class="section alt"><div class="container"><p class="eyebrow reveal">Good to Know</p><h2 class="reveal">Before You RSVP</h2><div class="divider">❀</div>
+<div class="grid3 mt">
+<div class="card reveal"><div class="card-body"><h3>Deadline</h3><p>Please reply by <strong>5 December 2026</strong> so we can confirm numbers with the venue and caterers.</p></div></div>
+<div class="card reveal"><div class="card-body"><h3>Plus-Ones</h3><p>Please include everyone in your party in the attendee count, including children, so we can seat you together.</p></div></div>
+<div class="card reveal"><div class="card-body"><h3>Changes?</h3><p>Plans change — that is fine. Email hello@hassanmehdiwedding.com or call +92 300 1234567 and we will update your reply.</p></div></div>
+</div></div></section>
+
+<section class="section"><div class="container center"><p class="eyebrow reveal">Thank You</p><h2 class="reveal">We Look Forward to Celebrating With You</h2><div class="divider">❀</div><p class="lead reveal">Baraat — Saturday, 19 December 2026, 7:00 PM, Royal Palm Golf &amp; Country Club, Lahore. #HassanMehdiWedding</p><div class="mt"><a class="btn ghost" href="events.html">Review the Events</a> <a class="btn ghost" href="invitation.html">View Invitation</a></div></div></section>
+</main>
+<footer><div class="foot-grid"><div><h3>Hassan Mehdi &amp; The Bride</h3><p style="margin-top:10px">Saturday, 19 December 2026<br>Royal Palm Golf &amp; Country Club, Lahore, Pakistan<br>#HassanMehdiWedding</p></div><div><h4>Explore</h4><a href="index.html">Home</a><a href="story.html">Our Story</a><a href="events.html">Events</a><a href="gallery.html">Gallery</a></div><div><h4>Wedding</h4><a href="invitation.html">Invitation</a><a href="rsvp.html">RSVP</a><a href="contact.html">Contact</a><a href="events.html">Venue &amp; Map</a></div><div><h4>Contact</h4><p>Email: hello@hassanmehdiwedding.com<br>Phone: +92 300 1234567<br>Lahore, Pakistan</p></div></div><div class="copy">© 2026 Hassan Mehdi &amp; The Bride — #HassanMehdiWedding • Made with love in Lahore</div></footer>
+<button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
